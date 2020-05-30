@@ -1,0 +1,31 @@
+/* ~~~ MAIN SASS FILE USED TO DEFINE GLOBAL STYLES AND OVERIDE DEFAULT BOOTSTRAP CLASSES AND STYLES */
+// $theme-colors: (
+//     "primary": green
+// );
+/* FONTS IMPORT: Robot @ 300, 400, 700 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+// BOOTSTRAP IMPORT 
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+html {
+    // used for responsivness --- 1rem === 10px
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*::before,
+*::after,
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1.6rem;
+    line-height: 1.7;
+}
