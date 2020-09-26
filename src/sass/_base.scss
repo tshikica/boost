@@ -1,0 +1,22 @@
+/* ~~~ MAIN SASS FILE USED TO DEFINE GLOBAL STYLES AND OVERIDE DEFAULT BOOTSTRAP CLASSES AND STYLES */
+// $theme-colors: (
+//     "primary": green
+// );
+/* FONTS IMPORT: Robot @ 300, 400, 700 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+// FONTS IMPORT: Open Sans @ 300, 400, 600, 700
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+// ANIMATION IMPORT
+@import "../../node_modules/animate.css/animate.min.css";
+// BOOTSTRAP IMPORT 
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+// FONTAWESOME IMPORT
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.min.css'; 
+a:link,
+a:visited {
+    color: #333;
+    &.active {
+        color:#e36159 !important
+    }
+}

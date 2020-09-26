@@ -1,0 +1,35 @@
+#header {
+    height: 101px;
+    transition: ease height 300ms;
+    
+}
+.dropdown-item {
+    a:link,
+    a:visited {
+        font-size: 17px;
+    }
+    &:hover {
+        color: #e36159 !important;
+        transition: all 0.2s ease;
+    }
+}
+
+.header-logo {
+    h1 {
+        font-size: 1.6rem;
+        a:link,
+        a:visited {
+            text-decoration: none;
+        }
+    }
+}
+.nav-pills {
+    li {
+        a {
+            &.active {
+                color: #e36159 !important; 
+            }
+        }
+    }
+    
+}

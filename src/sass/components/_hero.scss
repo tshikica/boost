@@ -1,0 +1,72 @@
+.hero-container {
+    background: #151719;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .hero-caption {
+        text-align: center;
+        h4 {
+            color: white;
+        }
+        .caption-small {
+            text-align: inherit;
+            line-height: 15px;
+            margin: 0px;
+            padding: 0px;
+            letter-spacing: 0px;
+            font-weight: 400;
+            font-size: 2rem;
+            color: #fff;
+        }
+        .caption-big {
+            text-align: inherit;
+            font-size: 3.8rem;
+            color: #fff;
+            font-weight: 700;
+            margin: 2rem 0;
+            --animate-delay: 0.9s;
+        }
+        .delayed {
+            animation-delay: 0.67s;
+        }
+        .cta-info-button {
+            text-align: inherit;
+            line-height: 12px;
+            border-width: 1px;
+            margin: 0px;
+            padding: 9px 20px;
+            letter-spacing: 0px;
+            font-weight: 400;
+            font-size: 1rem;
+            min-height: 52px;
+        }
+        .cta-action-button {
+            text-align: inherit;
+            letter-spacing: 1px;
+            line-height: 12px;
+            border-width: 1px;
+            margin: 0px;
+            padding: 9px 20px;
+            font-weight: 700;
+            font-size: 1rem;
+            text-transform: capitalize;
+            svg {
+                font-size: 18px;
+                transition: transform 0.2s ease;
+            }
+            &:hover {
+                svg {
+                    transform: translateX(8px);
+                    
+                }
+            }
+        }
+        .btn-white {
+            background: #fff;
+            color: #000;
+        }
+    }
+
+
+}

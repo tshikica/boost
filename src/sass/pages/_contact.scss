@@ -1,0 +1,17 @@
+.contact-hero {
+    background-color: $dark;
+    height: 55vhyarn;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .contact-hero-title {
+        padding-top: 60px;
+        text-align: center;
+
+        h4 {
+            font-size: 38px;
+            color: #fff;
+            margin-bottom: 1.2rem;
+        }
+    }
+}
